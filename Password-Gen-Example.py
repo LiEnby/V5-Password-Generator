@@ -46,7 +46,7 @@ def FindCheckLoc(code):
 def GetTamaIndex(code, type):
 	tamaIndex = []
 	if type == 0: 
-		tamaIndex.append(code[7])
+		tamaIndex.append(code[5])
 		tamaIndex.append(code[8])
 	elif type == 1: 
 		tamaIndex.append(code[5])
